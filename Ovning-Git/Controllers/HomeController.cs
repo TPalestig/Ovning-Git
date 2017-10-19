@@ -13,6 +13,8 @@ namespace Ovning_Git.Controllers
         {
             var model = new TitleModel();
             model.Title = "New Awesome Title";
+            model.Color = "yellow";
+          
             
             return View(model);
         }
