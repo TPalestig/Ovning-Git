@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ovning_Git.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,8 +11,10 @@ namespace Ovning_Git.Controllers
     {
         public ActionResult Index()
         {
+            var model = new TitleModel();
+            model.Title = "New Awesome Title";
             
-            return View();
+            return View(model);
         }
 
         public ActionResult About()
