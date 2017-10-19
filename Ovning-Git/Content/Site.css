@@ -33,3 +33,7 @@ textarea {
 {
     float: right;
 }
+
+.git-ovn-header{
+    color: greenyellow !important;
+}
