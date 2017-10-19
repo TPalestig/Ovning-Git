@@ -10,6 +10,7 @@ namespace Ovning_Git.Controllers
     {
         public ActionResult Index()
         {
+            
             return View();
         }
 
